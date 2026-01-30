@@ -1,11 +1,10 @@
 
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>teste2</title>
+  <title>DUAS MOLDURAS</title>
 
   <style>
     html, body {
@@ -97,8 +96,6 @@
     const video = document.getElementById("video");
     const frame = document.getElementById("frame");
     const frame2 = document.getElementById("frame2");
-    const frame2 = document.getElementById("frame3");
-    const frame2 = document.getElementById("frame4");
 
     const snapBtn = document.getElementById("snapBtn");
     const switchBtn = document.getElementById("switchBtn");
@@ -137,8 +134,7 @@
     switchFrameBtn.addEventListener("click", () => {
       usingFrame2 = !usingFrame2;
       frame.style.display = usingFrame2 ? "none" : "block";
-      frame3.style.display = usingFrame3 ? "block" : "none";
-      frame4.style.display = usingFrame4 ? "block" : "none";
+      frame2.style.display = usingFrame2 ? "block" : "none";
     });
 
     /* Tirar foto */
